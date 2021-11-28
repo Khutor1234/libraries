@@ -1,4 +1,4 @@
-const updateUser = (state , action) => {
+const updateLibrary = (state , action) => {
     const {type, payload} = action;
 
     if (state === undefined) {
@@ -9,8 +9,8 @@ const updateUser = (state , action) => {
 
     switch(type){
         default:
-            return state.user
+            return state.library
     } 
 }
 
-export default updateUser;
+export default updateLibrary;
